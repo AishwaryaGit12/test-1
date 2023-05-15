@@ -13,11 +13,11 @@
                     ],
                 "emailReceivers": [
                     {
-                      "emailAddressName": "AishwaryaKrishna",
+                      "name": "AishwaryaKrishna",
                       "emailAddress": "aishwarya@12mail.com"
                     },
                     {
-                      "emailAddressName": "test",
+                      "name": "test",
                       "emailAddress": "test45@mail.com"
                     }
                 ]

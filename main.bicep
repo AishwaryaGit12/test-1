@@ -1,12 +1,11 @@
-param name string
+param actionGroupName string
 param emailAddressName string
-param location string
 param emailAddress string
 param groupShortName string
+var location = 'global'
 
 resource actionGroup 'Microsoft.Insights/actionGroups@2021-09-01' = {
-  name: name
-  location: 'global'
+  name: actionGroupName
   properties: {
     groupShortName:groupShortName
     emailReceivers: [

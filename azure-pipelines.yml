@@ -1,26 +1,20 @@
-trigger:
-- none
+trigger: none
 
-pool:
-  vmImage: ubuntu-latest
+pool: mypool
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
-- task: AzureResourceManagerTemplateDeployment@3
-  inputs:
-    deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'TestConnection'
-    subscriptionId: '6ca07c31-0732-408a-8b17-075fb6998548'
-    action: 'Create Or Update Resource Group'
-    resourceGroupName: 'rg'
-    location: 'Brazil US'
-    templateLocation: 'Linked artifact'
-    csmFile: 'main.bicep'
-    csmParametersFile: 'parameter.json'
-    deploymentMode: 'Incremental'
+jobs:
+  - job: Deploy
+    steps:
+    - task: AzureResourceManagerTemplateDeployment@3
+      displayName: 'Deploy'
+      inputs:
+        deploymentScope: 'Resource Group'
+        azureResourceManagerConnection: 'TestConnection'
+        subscriptionId: '6ca07c31-0732-408a-8b17-075fb6998548'
+        action: 'Create Or Update Resource Group'
+        resourceGroupName: 'myResourceGroup'
+        location: 'Canada Central'
+        templateLocation: 'Linked artifact'
+        csmFile: 'main.bicep'
+        csmParametersFile: 'parameters.json'
+        deploymentMode: 'Incremental'

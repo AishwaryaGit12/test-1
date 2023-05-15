@@ -10,6 +10,7 @@
                     {
                     "actionGroupname":  "emailname"
                     },
+                    "emailReceivers" :[
                     {
                       "name": "AishwaryaKrishna",
                       "emailAddress": "aishwarya@12mail.com"
@@ -19,6 +20,7 @@
                       "emailAddress": "test45@mail.com"
                     }                    
                 ]
+             ]
             }
         }
     }

@@ -10,8 +10,12 @@
                 },
                 "emailReceivers": [
                     {
-                      "emailAddressName": "AishwaryaKrishna",
-                      "emailAddress": "aishwaryak1998@outlook.com"
+                      "emailAddressName": {
+                        "value" : "AishwaryaKrishna"
+                        },
+                      "emailAddress": {
+                         "value" : "aishwaryak1998@outlook.com"
+                    }
                     }
                 ]
        }

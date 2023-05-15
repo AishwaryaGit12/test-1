@@ -10,30 +10,13 @@
                 "emailReceivers": [
                     {
                       "name": "AishwaryaKrishna",
-                      "emailAddress": "a.a.krishna@dev.cfs.com.au"
+                      "emailAddress": "aishwarya@12mail.com"
                     },
                     {
-                      "name": "SrinivasanPurushothaman",
-                      "emailAddress": "s.s.purushothaman@dev.cfs.com.au"
-                    },
-                    {
-                        "name": "LalitNamdevShinde",
-                        "emailAddress": "lalit.shinde@dev.cfs.com.au"
-                    },
-                    {
-                        "name": "DhanalakshmiSeethapathi",
-                        "emailAddress": "d.seethapathi@dev.cfs.com.au"
-                    },
-                    {
-                        "name": "WillCook",
-                        "emailAddress": "will.cook@dev.cfs.com.au"
-                    },
-                    {
-                        "name": "ArunKumar",
-                        "emailAddress": "Arun.Kumar@dev.cfs.com.au"
+                      "name": "test",
+                      "emailAddress": "test45@mail.com"
                     }
                 ]
-
             }
         }
     }

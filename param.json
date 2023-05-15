@@ -7,7 +7,9 @@
                 "groupShortName": "email",
                 "enabled": true,
                 "actionGroup" : [
+                    {
                     "actionGroupname":  "emailname"
+                    }
                     ],
                 "emailReceivers": [
                     {

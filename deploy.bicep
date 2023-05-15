@@ -1,6 +1,6 @@
 param actionGroupObject object
 
-module actionGroupModule 'module/actionGroup.bicep' = [for actionGroup in actionGroupObject.actionGroup:{
+module actionGroupModule 'modules/actionGroup.bicep' = [for actionGroup in actionGroupObject.actionGroup:{
   name: actionGroup.actionGroupname
   params: {
     groupShortName:actionGroupObject.groupShortName

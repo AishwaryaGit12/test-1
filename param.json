@@ -6,7 +6,6 @@
             "value":{
                 "name":  "emailname",
                 "groupShortName": "email",
-                "enabled": true,
                 "emailReceivers": [
                     {
                       "name": "AishwaryaKrishna",

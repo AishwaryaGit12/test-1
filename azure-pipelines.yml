@@ -17,7 +17,7 @@ jobs:
         location: 'Canada Central'
         templateLocation: 'Linked artifact'
         csmFile: 'main.bicep'
-        csmParametersFile: 'parameters.json'
+        csmParametersFile: 'parameter.json'
         deploymentMode: 'Incremental'
         
         

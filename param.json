@@ -8,7 +8,7 @@
                 "enabled": true,
                 "actionGroup" : [
                     {
-                    "actionGroupname":  "emailname,
+                    "actionGroupname":  "emailname",
                     {
                       "name": "AishwaryaKrishna",
                       "emailAddress": "aishwarya@12mail.com"
@@ -17,6 +17,7 @@
                       "name": "test",
                       "emailAddress": "test45@mail.com"
                     }
+                  }
                 ]
             }
         }

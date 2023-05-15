@@ -8,10 +8,7 @@
                 "enabled": true,
                 "actionGroup" : [
                     {
-                    "actionGroupname":  "emailname"
-                    }
-                    ],
-                "emailReceivers": [
+                    "actionGroupname":  "emailname,
                     {
                       "name": "AishwaryaKrishna",
                       "emailAddress": "aishwarya@12mail.com"

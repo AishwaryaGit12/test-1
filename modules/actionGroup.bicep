@@ -15,12 +15,8 @@ resource actionGroup 'Microsoft.Insights/actionGroups@2021-09-01' = {
   properties: {
     enabled: actionGroupObject.enabled
     groupShortName:groupShortName
-    emailReceivers: [
-      {
-        name: name
-        emailAddress: emailAddress
-        useCommonAlertSchema: true
+    emailReceivers:{
+     allOf: actionGroupObject.emailReceivers
       }
-    ]
   }
 }

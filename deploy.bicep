@@ -8,6 +8,6 @@ module actionGroupModule 'modules/actionGroup.bicep' = [for actionGroup in actio
     location: 'global'
     name: actionGroupObject.name
     emailAddress: actionGroupObject.emailAddress
-    actionGroupname: actionGroupObject.actionGroupname
+    actionGroupname: actionGroup.actionGroupname
   }
 }]

@@ -7,7 +7,7 @@
                 "enabled": true,
                 "emailReceivers": [
                     {
-                      "name": "AishwaryaKrishna",
+                      "emailAddressName": "AishwaryaKrishna",
                       "emailAddress": "aishwaryak1998@outlook.com"
                     }
                 ]

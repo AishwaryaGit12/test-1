@@ -10,19 +10,9 @@
                 {
                   "actionGroupname":  "emailname"
                 }
-              ],
-              "emailReceivers" : [
-                {
+                ],
                    "name": "AishwaryaKrishna",
-                   "emailAddress": "aishwarya@12mail.com",
-                    "useCommonAlertSchema": true
-                },
-                {
-                   "name": "test",
-                   "emailAddress": "test45@mail.com",
-                    "useCommonAlertSchema": true
-                 }                    
-                 ]
+                   "emailAddress": "aishwarya@12mail.com"                            
                 }  
           }
       }

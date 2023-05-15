@@ -1,6 +1,7 @@
 trigger: none
 
-pool: ubuntu-latest
+pool:
+vmImage: ubuntu-latest
 
 jobs:
   - job: Deploy

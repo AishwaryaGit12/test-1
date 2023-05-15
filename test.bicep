@@ -1,7 +1,3 @@
-param actionGroupName string
-param emailAddressName string
-param emailAddress string
-param groupShortName string
 var location = 'global'
 param rgArray array
 

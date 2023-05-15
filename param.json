@@ -4,8 +4,8 @@
     "parameters": {
         "actionGroupObject": {
             "value":{
-                "name":  "emailNotification",
-                "groupShortName": "emails",
+                "name":  "emailname",
+                "groupShortName": "email",
                 "enabled": true,
                 "emailReceivers": [
                     {

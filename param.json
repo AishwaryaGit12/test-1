@@ -1,23 +1,27 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "actionGroup": {
-            "value":{
-                "groupShortName": "email",
-                "enabled": true,
-                "actionGroupname":  "emailname",
-                "emailReceivers" : [
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+      "actionGroupObject": {
+          "value":{
+              "groupShortName": "email",
+              "enabled": true,
+              "actionGroup":  [
                 {
-                 "name": "AishwaryaKrishna",
-                 "emailAddress": "aishwarya@12mail.com"
-                 },
-                 {
-                 "name": "test",
-                  "emailAddress": "test45@mail.com"
-                 }                    
-                ]
-            }
-        }
-    }
+                  "actionGroupname":  "emailname"
+                }
+                ],
+              "emailReceivers" : [
+              {
+               "name": "AishwaryaKrishna",
+               "emailAddress": "aishwarya@12mail.com"
+               },
+               {
+               "name": "test",
+                "emailAddress": "test45@mail.com"
+               }                    
+              ]
+          }
+      }
+  }
 }

@@ -4,9 +4,11 @@
     "parameters": {
         "actionGroupObject": {
             "value":{
-                "actionGroupname":  "emailname",
                 "groupShortName": "email",
                 "enabled": true,
+                "actionGroup" : [
+                    "actionGroupname":  "emailname"
+                    ],
                 "emailReceivers": [
                     {
                       "emailAddressName": "AishwaryaKrishna",

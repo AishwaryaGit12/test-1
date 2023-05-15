@@ -1,10 +1,10 @@
 param actionGroupname string
-param name string
+//param name string
 param actionGroupObject object
 param location string
 
 @description('Unique email address.')
-param emailAddress string
+//param emailAddress string
 
 @description('Short name up to 12 characters for the Action group.')
 param groupShortName string

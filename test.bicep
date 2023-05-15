@@ -16,3 +16,4 @@ resource actionGroup 'Microsoft.Insights/actionGroups@2021-09-01' = [for (rg, i)
     enabled : true
   }
 }
+]

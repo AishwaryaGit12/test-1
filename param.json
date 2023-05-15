@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "actionGroupObject": {
+            "value":{
+                "name":  "emailNotification",
+                "groupShortName": "emails",
+                "enabled": true,
+                "emailReceivers": [
+                    {
+                      "name": "AishwaryaKrishna",
+                      "emailAddress": "a.a.krishna@dev.cfs.com.au"
+                    },
+                    {
+                      "name": "SrinivasanPurushothaman",
+                      "emailAddress": "s.s.purushothaman@dev.cfs.com.au"
+                    },
+                    {
+                        "name": "LalitNamdevShinde",
+                        "emailAddress": "lalit.shinde@dev.cfs.com.au"
+                    },
+                    {
+                        "name": "DhanalakshmiSeethapathi",
+                        "emailAddress": "d.seethapathi@dev.cfs.com.au"
+                    },
+                    {
+                        "name": "WillCook",
+                        "emailAddress": "will.cook@dev.cfs.com.au"
+                    },
+                    {
+                        "name": "ArunKumar",
+                        "emailAddress": "Arun.Kumar@dev.cfs.com.au"
+                    }
+                ]
+
+            }
+        }
+    }
+}

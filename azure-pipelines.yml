@@ -1,6 +1,6 @@
 trigger: none
 
-pool: mypool
+pool: ubuntu-latest
 
 jobs:
   - job: Deploy
@@ -18,3 +18,9 @@ jobs:
         csmFile: 'main.bicep'
         csmParametersFile: 'parameters.json'
         deploymentMode: 'Incremental'
+        
+        
+        
+        
+        
+        

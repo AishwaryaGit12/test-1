@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
                 "actionGroupName": {
-                    "value" : "emailNotification"
+                    "value" : "emailNotificationa"
                 },
                 "groupShortName": {
-                    "value" : "emails"
+                    "value" : "email"
                 },
                 "emailAddressName": {
                      "value" : "AishwaryaKrishna"

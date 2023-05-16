@@ -3,27 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "actionGroupName": {
-      "type": "string",
-      "metadata": {
-        "description": "Unique name (within the Resource Group) for the Action group."
-      }
-    },
-    "groupShortName": {
-      "type": "string",
-      "metadata": {
-        "description": "Short name (maximum 12 characters) for the Action group."
-      }
-    }
-  },
+       "value" : "emailNotification"
+        },
+        "groupShortName": {
+        "value" : "emails"
+        },
   "resources": [
     {
-      "type": "Microsoft.Insights/actionGroups",
-      "apiVersion": "2021-09-01",
-      "name": "[parameters('actionGroupName')]",
-      "location": "Global",
-      "properties": {
-        "groupShortName": "[parameters('groupShortName')]",
-        "enabled": true,
         "emailReceivers": [
           {
             "name": "contosoEmail",
@@ -38,12 +24,6 @@
           }
         ]
       }
-    }
-  ],
-  "outputs":{
-      "actionGroupId":{
-          "type":"string",
-          "value":"[resourceId('Microsoft.Insights/actionGroups',parameters('actionGroupName'))]"
-      }
-  }
+  ]
+}
 }

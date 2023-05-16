@@ -6,8 +6,8 @@
             "value": {
                       "actionGroup": [
                        {
-                        "actionGroupname": "EmailNotification for Manual Network Changes",
-                        "groupShortName": "Notification-Network-Changes",
+                        "actionGroupname": "EmailNot",
+                        "groupShortName": "Notifi",
                         "enabled": true,
                         "emailReceivers": [
                             {

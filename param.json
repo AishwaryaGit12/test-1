@@ -6,7 +6,7 @@
             "value": {
                 "actionGroup": [
                     {
-                        "actionGroupname": "EmailNotification"
+                        "actionGroupname": "EmailNotify"
                     }],
                         "groupShortName": "Notification",
                         "enabled": true,

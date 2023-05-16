@@ -3,23 +3,25 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "actionGroupObject": {
-            "value":{
-                "groupShortName": "emailp",
-                "enabled": true,
-                "actionGroup":  [
-                {
-                  "actionGroupname":  "emailname"
-                }
-                ],
-                 "emailReceivers": [
-                {
-                  "emailAddressName": "contosoEmail",
-                  "emailAddress": "devops@contoso.com"
-                },
-                {
-                  "emailAddressName": "contosoEmail2",
-                  "emailAddress": "devops2@contoso.com"
-                }
+            "value": {
+                "actionGroup": [
+                    {
+                        "actionGroupname": "EmailNotification",
+                        "groupShortName": "Notification",
+                        "enabled": true,
+                        "emailReceivers": [
+                            {
+                                "emailAddressName": "test",
+                                "emailAddress": "test@mail",
+                                "useCommonAlertSchema": true
+                            },
+                            {
+                                "emailAddressName": "test1",
+                                "emailAddress": "test1@mail",
+                                "useCommonAlertSchema": true
+                            }
+                        ]
+                    }
                 ]
             }
         }

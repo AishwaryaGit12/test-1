@@ -6,7 +6,8 @@
             "value": {
                 "actionGroup": [
                     {
-                        "actionGroupname": "EmailNotification",
+                        "actionGroupname": "EmailNotification"
+                    }],
                         "groupShortName": "Notification",
                         "enabled": true,
                         "emailReceivers": [
@@ -20,10 +21,8 @@
                                 "emailAddress": "test1@mail",
                                 "useCommonAlertSchema": true
                             }
-                        ]
-                    }
-                ]
-            }
-        }
-    }
-}
+                       ]
+                   }
+               }
+           }
+       }

@@ -5,6 +5,8 @@ module actionGroupModule 'modules/actionGroup.bicep' = [for actionGroup in actio
   params: {
     actionGroupObject: actionGroup
     location: 'global'
+    actionGroupname: actionGroup.actionGroupname
+    groupShortName: actionGroupObject.groupShortName
     emailReceivers: actionGroupObject.emailReceivers
     }
 }]

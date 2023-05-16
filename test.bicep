@@ -1,5 +1,5 @@
 param actionGroupName string
-param name string
+param emailAddressname string
 param emailAddress string
 param groupShortName string
 var location = 'global'
@@ -11,7 +11,7 @@ resource actionGroup 'Microsoft.Insights/actionGroups@2021-09-01' = {
     groupShortName:groupShortName
     emailReceivers: [
       {
-        name: name
+        name: emailAddressname
         emailAddress: emailAddress
         useCommonAlertSchema: true
       }

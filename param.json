@@ -1,20 +1,27 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
-      "actionGroupObject": {
-          "value":{
-              "groupShortName": "email",
-              "enabled": true,
-              "actionGroup":  [
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "actionGroupObject": {
+            "value":{
+                "groupShortName": "emailp",
+                "enabled": true,
+                "actionGroup":  [
                 {
                   "actionGroupname":  "emailname"
                 }
                 ],
-                   "name": "AishwaryaKrishna",
-                   "emailAddress": "aishwarya@12mail.com"                            
-                }  
-          }
-      }
-  }
-
+                 "emailReceivers": [
+                {
+                  "emailAddressName": "contosoEmail",
+                  "emailAddress": "devops@contoso.com"
+                },
+                {
+                  "emailAddressName": "contosoEmail2",
+                  "emailAddress": "devops2@contoso.com"
+                }
+                ]
+            }
+        }
+    }
+}

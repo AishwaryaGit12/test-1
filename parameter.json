@@ -8,11 +8,21 @@
                 "groupShortName": {
                     "value" : "email"
                 },
-                "emailAddressName": {
-                     "value" : "AishwaryaKrishna"
-                },
-                 "emailAddress": {
-                      "value" : "aishwaryak1998@outlook.com"
-                }              
+                "resources": [
+                {
+                "emailReceivers": [
+                {
+                "emailAddressName": "contosoEmail",
+                "emailAddress": "devops@contoso.com",
+                "useCommonAlertSchema": true
+               },
+               {
+               "emailAddressName": "contosoEmail2",
+               "emailAddress": "devops2@contoso.com",
+               "useCommonAlertSchema": true
+              }
+            ] 
+           }
+         ] 
        }
-}
+    }

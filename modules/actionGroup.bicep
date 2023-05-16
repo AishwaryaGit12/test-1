@@ -1,22 +1,16 @@
-param actionGroupname string
-param emailAddressName string
+@description('Action Group Parama')
+param emailReceivers array
 param actionGroupObject object
+param tags object
 param location string
-param emailAddress string
-param groupShortName string
 
 resource actionGroup 'Microsoft.Insights/actionGroups@2021-09-01' = {
-  name: actionGroupname
+  name: actionGroupObject.actionGroupname
   location: location
+  tags:tags
   properties: {
     enabled: actionGroupObject.enabled
-    groupShortName:groupShortName
-    emailReceivers: [
-      {
-        name: emailAddressName
-        emailAddress: emailAddress
-        useCommonAlertSchema: true
-      }
-    ]
+    groupShortName:actionGroupObject.groupShortName
+    emailReceivers: emailReceivers
   }
 }

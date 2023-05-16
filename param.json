@@ -1,13 +1,13 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
-    "parameters": {  
+    "parameters": {
         "actionGroupObject": {
             "value": {
-                      "actionGroup": [
-                       {
-                        "actionGroupname": "EmailNot",
-                        "groupShortName": "Notifi",
+                "actionGroup": [
+                    {
+                        "actionGroupname": "EmailNotification for Manual Network Changes",
+                        "groupShortName": "NetCHGAG",
                         "enabled": true,
                         "emailReceivers": [
                             {
@@ -19,7 +19,7 @@
                                 "emailAddressName": "test1",
                                 "emailAddress": "test1@mail",
                                 "useCommonAlertSchema": true
-                            }
+                           }
                         ]
                     }
                 ]

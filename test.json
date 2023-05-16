@@ -1,29 +1,18 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
-    "actionGroupName": {
-       "value" : "emailNotification"
-        },
-        "groupShortName": {
-        "value" : "emails"
-        },
-  "resources": [
-    {
-        "emailReceivers": [
-          {
-            "name": "contosoEmail",
-            "emailAddress": "devops@contoso.com",
-            "useCommonAlertSchema": true
-
-          },
-          {
-            "name": "contosoEmail2",
-            "emailAddress": "devops2@contoso.com",
-            "useCommonAlertSchema": true
-          }
-        ]
-      }
-  ]
-}
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+                "actionGroupName": {
+                    "value" : "emailNotify"
+                },
+                "groupShortName": {
+                    "value" : "mails"
+                },
+                "name": {
+                     "value" : "AishwaryaKrishna"
+                },
+                 "emailAddress": {
+                      "value" : "aishwaryak1998@outlook.com"
+                }              
+       }
 }

@@ -6,7 +6,7 @@
             "value": {
                 "actionGroup": [
                     {
-                        "actionGroupname": "EmailNotification for Manual Network Changes",
+                        "actionGroupname": "EmailNotificationtest",
                         "groupShortName": "NetCHGAG",
                         "enabled": true,
                         "emailReceivers": [

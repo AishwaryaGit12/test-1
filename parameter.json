@@ -8,7 +8,7 @@
                 "groupShortName": {
                     "value" : "mail"
                 },
-                "resources": [
+                "value": [
                 {
                 "emailReceivers": [
                 {

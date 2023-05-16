@@ -1,18 +1,21 @@
-param rgArray array
+param actionGroupName string
+param name string
+param emailAddress string
+param groupShortName string
 var location = 'global'
 
-resource actionGroup 'Microsoft.Insights/actionGroups@2021-09-01' = [for (rg, i) in rgArray: { 
-  name: rg.actionGroupName
+resource actionGroup 'Microsoft.Insights/actionGroups@2021-09-01' = {
+  name: actionGroupName
   location : location
   properties: {
-    groupShortName:rg.groupShortName
+    groupShortName:groupShortName
     emailReceivers: [
       {
-        name: rg.emailAddressName
-        emailAddress: rg.emailAddress
+        name: name
+        emailAddress: emailAddress
         useCommonAlertSchema: true
       }
     ]
     enabled : true
   }
-}]
+}

@@ -4,7 +4,7 @@
     "parameters": {  
         "actionGroupObject": {
             "value": {
-                      actionGroup": [
+                      "actionGroup": [
                        {
                         "actionGroupname": "EmailNotification for Manual Network Changes",
                         "groupShortName": "Notification-Network-Changes",

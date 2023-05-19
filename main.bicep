@@ -1,6 +1,6 @@
 param actionGroupName string
-param emailAddressName string
-param emailAddress string
+param WebHookName string
+param serviceUri string
 param groupShortName string
 var location = 'global'
 
@@ -9,10 +9,10 @@ resource actionGroup 'Microsoft.Insights/actionGroups@2021-09-01' = {
   location : location
   properties: {
     groupShortName:groupShortName
-    emailReceivers: [
+    webhookReceivers: [
       {
-        name: emailAddressName
-        emailAddress: emailAddress
+        name: WebHookName
+        serviceUri: serviceUri
         useCommonAlertSchema: true
       }
     ]

@@ -3,26 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
                 "actionGroupName": {
-                    "value" : "emailNotificationm"
+                    "value" : "webhookAction"
                 },
                 "groupShortName": {
-                    "value" : "mail"
+                    "value" : "web"
                 },
-                "value": [
-                {
-                "emailReceivers": [
-                {
-                "emailAddressName": "contosoEmail",
-                "emailAddress": "devops@contoso.com",
-                "useCommonAlertSchema": true
-               },
-               {
-               "emailAddressName": "contosoEmail2",
-               "emailAddress": "devops2@contoso.com",
-               "useCommonAlertSchema": true
-              }
-            ] 
-           }
-         ] 
-       }
+                "serviceUri": {
+                    "value" : "https://portal.azure.com/"
+                },
+                "WebHookName": {
+                    "value" : "portal"
+                }
     }
+}

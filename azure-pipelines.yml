@@ -16,8 +16,8 @@ jobs:
         resourceGroupName: 'myResourceGroup'
         location: 'Canada Central'
         templateLocation: 'Linked artifact'
-        csmFile: 'deploy.bicep'
-        csmParametersFile: 'param.json'
+        csmFile: 'main.bicep'
+        csmParametersFile: 'parameter.json'
         deploymentMode: 'Incremental'
         
         

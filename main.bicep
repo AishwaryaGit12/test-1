@@ -1,5 +1,8 @@
 param actionGroupName string
+
+@secure()
 param WebHookName string
+
 param serviceUri string
 param objectId string
 param groupShortName string

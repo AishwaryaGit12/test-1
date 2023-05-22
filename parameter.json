@@ -6,16 +6,22 @@
                     "value" : "webhookAction"
                 },
                 "groupShortName": {
-                    "value" : "web"
+                    "value" : "webapp"
                 },
                 "serviceUri": {
-                    "value" : "https://portal.office.com/"
+                    "value" : "https://portal.app.com/"
                 },
                 "WebHookName": {
-                    "value" : "office"
+                    "value" : "app"
                 },
                "objectId": {
                    "value" : "4bafd881-8574-4c34-b2a9-6490404c1fa5"
+                },
+               "identifierUri": {
+                   "value" : "https://portal.azure.com"
+                },
+               "tenantId": {
+                   "value" : "5223d5a2-f144-47bf-9e53-baa0b958beac"
                }
     }
 }

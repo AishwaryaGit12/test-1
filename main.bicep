@@ -2,6 +2,8 @@ param actionGroupName string
 param WebHookName string
 param serviceUri string
 param objectId string
+param tenantId string
+param identifierUri string
 param groupShortName string
 var location = 'global'
 

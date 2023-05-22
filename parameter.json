@@ -9,10 +9,13 @@
                     "value" : "web"
                 },
                 "serviceUri": {
-                    "value" : "https://portal.azure.com/"
+                    "value" : "https://portal.office.com/"
                 },
                 "WebHookName": {
-                    "value" : "portal"
-                }
+                    "value" : "office"
+                },
+               "objectId": {
+                   "value" : "4bafd881-8574-4c34-b2a9-6490404c1fa5"
+               }
     }
 }

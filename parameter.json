@@ -3,25 +3,25 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
                 "actionGroupName": {
-                    "value" : "webhookAction"
+                    "value" : "webhookActionGroup"
                 },
                 "groupShortName": {
-                    "value" : "webapp"
+                    "value" : "webappgrp"
                 },
                 "serviceUri": {
                     "value" : "https://portal.app.com/"
                 },
                 "WebHookName": {
-                    "value" : "app"
+                    "value" : "portal"
                 },
                "objectId": {
-                   "value" : "ca3935fc-4717-44ba-b762-1f9c0729e988"
+                   "value" : "4e350ce4-cb24-49c3-aabc-cc29b71b77a9"
                 },
                "identifierUri": {
-                   "value" : ""
+                   "value" : "api://6b163037-4d0e-4c09-aaab-b9fb831d1062"
                 },
                "tenantId": {
-                   "value" : "a0c3938c-3a9f-44cd-8637-2bfeab329b74"
+                   "value" : "5223d5a2-f144-47bf-9e53-baa0b958beac"
                }
     }
 }
